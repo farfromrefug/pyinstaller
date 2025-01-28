@@ -38,6 +38,7 @@ pyOptions = [
     '--add-binary <SRC;DEST or SRC:DEST>',
     '--collect-data <MODULENAME>',
     '--collect-all <MODULENAME>',
+    '--hidden-import <MODULENAME>',
     '--version-file <FILE>',
 
     '--name <NAME>',                    '-n <NAME>',
