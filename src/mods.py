@@ -39,7 +39,7 @@ pyOptions = [
     '--collect-data <MODULENAME>',
     '--collect-all <MODULENAME>',
     '--hidden-import <MODULENAME>',
-    '--arch <ARCH>',
+    '--target-architecture <ARCH>',
     '--version-file <FILE>',
 
     '--name <NAME>',                    '-n <NAME>',
