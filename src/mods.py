@@ -59,10 +59,10 @@ unsupportedOptions: List[str] = []
 
 for option in providedOptions:
     optionKey = option.split()[0]
-    if bool(isPyType and optionKey in pyOptionKeys) or bool(isSpecType and optionKey in specOptionKeys):
-        supportedOptions.append(option)
-    else:
-        unsupportedOptions.append(option)
+    # if bool(isPyType and optionKey in pyOptionKeys) or bool(isSpecType and optionKey in specOptionKeys):
+    supportedOptions.append(option)
+    # else:
+        # unsupportedOptions.append(option)
 
 ## Supported options -> OUTPUT -> NOTICE
 if supportedOptions:
